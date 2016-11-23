@@ -17,7 +17,7 @@ public class HelloServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out=response.getWriter();
-		out.print("hello...Git");
+		out.print("hello...Git....Test");
 		out.close();
 	}
 }
